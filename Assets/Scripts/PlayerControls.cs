@@ -43,6 +43,7 @@ void OnCollisionEnter2D(Collision2D collision)
 if (collision.collider.tag == "Ground")
 {
     isGrounded = true;
+            //GameOver();
 }
 }
 
@@ -67,11 +68,20 @@ void GameOver()
     Time.timeScale = 0;
 }
 
-}
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Coin")
+        {
+            Destroy(collision.gameObject);
+       }
+     }
+
+    }
 
 
 
-//jayden is so cool
+//jayden & kovidh is so cool
 
 //shreyas sucks
 
