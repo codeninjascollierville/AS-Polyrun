@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 219904888717938506}
   - component: {fileID: -2765883157684275918}
+  - component: {fileID: -352810041039508791}
   m_Layer: 0
   m_Name: ChallengeObj
   m_TagString: Untagged
@@ -53,6 +54,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
+--- !u!114 &-352810041039508791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894569388614119184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d74e7dfb8f3d64387e8062319d6a1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestruction: 6
 --- !u!1001 &5586269661686235297
 PrefabInstance:
   m_ObjectHideFlags: 0

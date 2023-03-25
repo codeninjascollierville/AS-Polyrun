@@ -9,8 +9,8 @@ public class Move : MonoBehaviour
       public float speed;
  
     // Start is called before the first frame update
-    void Start()
-    {
+    //void Start()
+    //{
     // Update is called once per frame
     void Update()
     {
@@ -18,5 +18,4 @@ public class Move : MonoBehaviour
       transform.position += Vector3.left *  speed * Time.deltaTime;
 
     }
-}
 }

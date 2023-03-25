@@ -65,7 +65,8 @@ void OnCollisionExit2D(Collision2D collision)
 
 void GameOver()
 {
-    Time.timeScale = 0;
+    GameObject.Find("GameController").GetComponent<GameController>().GameOver();
+    //Time.timeScale = 0;
 }
 
 
@@ -73,7 +74,10 @@ void GameOver()
     {
         if (collision.tag == "Coin")
         {
+            
+            GameObject.Find("GameController").GetComponent<GameController>().IncrementScore();
             Destroy(collision.gameObject);
+       
        }
      }
 
