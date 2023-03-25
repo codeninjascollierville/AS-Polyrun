@@ -200,6 +200,8 @@ GameObject:
   m_Component:
   - component: {fileID: 168329699}
   - component: {fileID: 168329698}
+  - component: {fileID: 168329700}
+  - component: {fileID: 168329701}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -237,6 +239,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &168329700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168329697}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e9a8003d0b1934bb71b4f8eaa6b29d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  challengeObject: {fileID: 1817394106181030998, guid: c1482d113b6ce4e49a0f8efdfe48d5d0,
+    type: 3}
+  spawnDelay: 2
+  spawnTime: 3
+--- !u!114 &168329701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168329697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6c280b28f8e524459201b1c9a3d94f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  challengeObject: {fileID: 0}
+  spawnDelay: 1
+  spawnTime: 2
 --- !u!114 &333381765 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6185358136005570088, guid: 32099380f5be4314eaafd9392860df90,
